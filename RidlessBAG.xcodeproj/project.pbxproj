@@ -99,6 +99,7 @@
 		F3729CB42622235500BD767A /* RidlessBAG */ = {
 			isa = PBXGroup;
 			children = (
+				F3729CE82622239B00BD767A /* RegAuth */,
 				F3729CB52622235500BD767A /* AppDelegate.swift */,
 				F3729CB72622235500BD767A /* SceneDelegate.swift */,
 				F3729CB92622235500BD767A /* ViewController.swift */,
@@ -126,6 +127,13 @@
 				F3729CD92622235900BD767A /* Info.plist */,
 			);
 			path = RidlessBAGUITests;
+			sourceTree = "<group>";
+		};
+		F3729CE82622239B00BD767A /* RegAuth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RegAuth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
