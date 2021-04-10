@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3729CB62622235500BD767A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3729CB52622235500BD767A /* AppDelegate.swift */; };
+		F3729CB82622235500BD767A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3729CB72622235500BD767A /* SceneDelegate.swift */; };
+		F3729CBA2622235500BD767A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3729CB92622235500BD767A /* ViewController.swift */; };
+		F3729CBD2622235500BD767A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3729CBB2622235500BD767A /* Main.storyboard */; };
+		F3729CBF2622235900BD767A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3729CBE2622235900BD767A /* Assets.xcassets */; };
+		F3729CC22622235900BD767A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3729CC02622235900BD767A /* LaunchScreen.storyboard */; };
+		F3729CCD2622235900BD767A /* RidlessBAGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3729CCC2622235900BD767A /* RidlessBAGTests.swift */; };
+		F3729CD82622235900BD767A /* RidlessBAGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3729CD72622235900BD767A /* RidlessBAGUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3729CC92622235900BD767A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3729CAA2622235500BD767A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3729CB12622235500BD767A;
+			remoteInfo = RidlessBAG;
+		};
+		F3729CD42622235900BD767A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3729CAA2622235500BD767A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3729CB12622235500BD767A;
+			remoteInfo = RidlessBAG;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3729CB22622235500BD767A /* RidlessBAG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RidlessBAG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3729CB52622235500BD767A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3729CB72622235500BD767A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F3729CB92622235500BD767A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3729CBC2622235500BD767A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3729CBE2622235900BD767A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3729CC12622235900BD767A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3729CC32622235900BD767A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3729CC82622235900BD767A /* RidlessBAGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RidlessBAGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3729CCC2622235900BD767A /* RidlessBAGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidlessBAGTests.swift; sourceTree = "<group>"; };
+		F3729CCE2622235900BD767A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3729CD32622235900BD767A /* RidlessBAGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RidlessBAGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3729CD72622235900BD767A /* RidlessBAGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidlessBAGUITests.swift; sourceTree = "<group>"; };
+		F3729CD92622235900BD767A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3729CAF2622235500BD767A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3729CC52622235900BD767A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3729CD02622235900BD767A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3729CA92622235500BD767A = {
+			isa = PBXGroup;
+			children = (
+				F3729CB42622235500BD767A /* RidlessBAG */,
+				F3729CCB2622235900BD767A /* RidlessBAGTests */,
+				F3729CD62622235900BD767A /* RidlessBAGUITests */,
+				F3729CB32622235500BD767A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3729CB32622235500BD767A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3729CB22622235500BD767A /* RidlessBAG.app */,
+				F3729CC82622235900BD767A /* RidlessBAGTests.xctest */,
+				F3729CD32622235900BD767A /* RidlessBAGUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3729CB42622235500BD767A /* RidlessBAG */ = {
+			isa = PBXGroup;
+			children = (
+				F3729CB52622235500BD767A /* AppDelegate.swift */,
+				F3729CB72622235500BD767A /* SceneDelegate.swift */,
+				F3729CB92622235500BD767A /* ViewController.swift */,
+				F3729CBB2622235500BD767A /* Main.storyboard */,
+				F3729CBE2622235900BD767A /* Assets.xcassets */,
+				F3729CC02622235900BD767A /* LaunchScreen.storyboard */,
+				F3729CC32622235900BD767A /* Info.plist */,
+			);
+			path = RidlessBAG;
+			sourceTree = "<group>";
+		};
+		F3729CCB2622235900BD767A /* RidlessBAGTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3729CCC2622235900BD767A /* RidlessBAGTests.swift */,
+				F3729CCE2622235900BD767A /* Info.plist */,
+			);
+			path = RidlessBAGTests;
+			sourceTree = "<group>";
+		};
+		F3729CD62622235900BD767A /* RidlessBAGUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3729CD72622235900BD767A /* RidlessBAGUITests.swift */,
+				F3729CD92622235900BD767A /* Info.plist */,
+			);
+			path = RidlessBAGUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3729CB12622235500BD767A /* RidlessBAG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3729CDC2622235900BD767A /* Build configuration list for PBXNativeTarget "RidlessBAG" */;
+			buildPhases = (
+				F3729CAE2622235500BD767A /* Sources */,
+				F3729CAF2622235500BD767A /* Frameworks */,
+				F3729CB02622235500BD767A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RidlessBAG;
+			productName = RidlessBAG;
+			productReference = F3729CB22622235500BD767A /* RidlessBAG.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3729CC72622235900BD767A /* RidlessBAGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3729CDF2622235900BD767A /* Build configuration list for PBXNativeTarget "RidlessBAGTests" */;
+			buildPhases = (
+				F3729CC42622235900BD767A /* Sources */,
+				F3729CC52622235900BD767A /* Frameworks */,
+				F3729CC62622235900BD767A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3729CCA2622235900BD767A /* PBXTargetDependency */,
+			);
+			name = RidlessBAGTests;
+			productName = RidlessBAGTests;
+			productReference = F3729CC82622235900BD767A /* RidlessBAGTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3729CD22622235900BD767A /* RidlessBAGUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3729CE22622235900BD767A /* Build configuration list for PBXNativeTarget "RidlessBAGUITests" */;
+			buildPhases = (
+				F3729CCF2622235900BD767A /* Sources */,
+				F3729CD02622235900BD767A /* Frameworks */,
+				F3729CD12622235900BD767A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3729CD52622235900BD767A /* PBXTargetDependency */,
+			);
+			name = RidlessBAGUITests;
+			productName = RidlessBAGUITests;
+			productReference = F3729CD32622235900BD767A /* RidlessBAGUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3729CAA2622235500BD767A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					F3729CB12622235500BD767A = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					F3729CC72622235900BD767A = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = F3729CB12622235500BD767A;
+					};
+					F3729CD22622235900BD767A = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = F3729CB12622235500BD767A;
+					};
+				};
+			};
+			buildConfigurationList = F3729CAD2622235500BD767A /* Build configuration list for PBXProject "RidlessBAG" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3729CA92622235500BD767A;
+			productRefGroup = F3729CB32622235500BD767A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3729CB12622235500BD767A /* RidlessBAG */,
+				F3729CC72622235900BD767A /* RidlessBAGTests */,
+				F3729CD22622235900BD767A /* RidlessBAGUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3729CB02622235500BD767A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3729CC22622235900BD767A /* LaunchScreen.storyboard in Resources */,
+				F3729CBF2622235900BD767A /* Assets.xcassets in Resources */,
+				F3729CBD2622235500BD767A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3729CC62622235900BD767A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3729CD12622235900BD767A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3729CAE2622235500BD767A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3729CBA2622235500BD767A /* ViewController.swift in Sources */,
+				F3729CB62622235500BD767A /* AppDelegate.swift in Sources */,
+				F3729CB82622235500BD767A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3729CC42622235900BD767A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3729CCD2622235900BD767A /* RidlessBAGTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3729CCF2622235900BD767A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3729CD82622235900BD767A /* RidlessBAGUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3729CCA2622235900BD767A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3729CB12622235500BD767A /* RidlessBAG */;
+			targetProxy = F3729CC92622235900BD767A /* PBXContainerItemProxy */;
+		};
+		F3729CD52622235900BD767A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3729CB12622235500BD767A /* RidlessBAG */;
+			targetProxy = F3729CD42622235900BD767A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3729CBB2622235500BD767A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3729CBC2622235500BD767A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3729CC02622235900BD767A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3729CC12622235900BD767A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3729CDA2622235900BD767A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3729CDB2622235900BD767A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3729CDD2622235900BD767A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W5J56GRQ4;
+				INFOPLIST_FILE = RidlessBAG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vlt18-mail.ru.RidlessBAG";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3729CDE2622235900BD767A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W5J56GRQ4;
+				INFOPLIST_FILE = RidlessBAG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vlt18-mail.ru.RidlessBAG";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F3729CE02622235900BD767A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W5J56GRQ4;
+				INFOPLIST_FILE = RidlessBAGTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vlt18-mail.ru.RidlessBAGTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RidlessBAG.app/RidlessBAG";
+			};
+			name = Debug;
+		};
+		F3729CE12622235900BD767A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W5J56GRQ4;
+				INFOPLIST_FILE = RidlessBAGTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vlt18-mail.ru.RidlessBAGTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RidlessBAG.app/RidlessBAG";
+			};
+			name = Release;
+		};
+		F3729CE32622235900BD767A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W5J56GRQ4;
+				INFOPLIST_FILE = RidlessBAGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vlt18-mail.ru.RidlessBAGUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RidlessBAG;
+			};
+			name = Debug;
+		};
+		F3729CE42622235900BD767A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W5J56GRQ4;
+				INFOPLIST_FILE = RidlessBAGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vlt18-mail.ru.RidlessBAGUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RidlessBAG;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3729CAD2622235500BD767A /* Build configuration list for PBXProject "RidlessBAG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3729CDA2622235900BD767A /* Debug */,
+				F3729CDB2622235900BD767A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3729CDC2622235900BD767A /* Build configuration list for PBXNativeTarget "RidlessBAG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3729CDD2622235900BD767A /* Debug */,
+				F3729CDE2622235900BD767A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3729CDF2622235900BD767A /* Build configuration list for PBXNativeTarget "RidlessBAGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3729CE02622235900BD767A /* Debug */,
+				F3729CE12622235900BD767A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3729CE22622235900BD767A /* Build configuration list for PBXNativeTarget "RidlessBAGUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3729CE32622235900BD767A /* Debug */,
+				F3729CE42622235900BD767A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3729CAA2622235500BD767A /* Project object */;
+}
