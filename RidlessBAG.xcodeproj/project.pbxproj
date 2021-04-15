@@ -18,7 +18,11 @@
 		F3729CF926222C8200BD767A /* a_PoorStory.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3729CF826222C8200BD767A /* a_PoorStory.ttf */; };
 		F3729CFA26222C8200BD767A /* a_PoorStory.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3729CF826222C8200BD767A /* a_PoorStory.ttf */; };
 		F3729CFB26222C8200BD767A /* a_PoorStory.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3729CF826222C8200BD767A /* a_PoorStory.ttf */; };
-		F3729D282622CBEF00BD767A /* LaunchScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3729D272622CBEF00BD767A /* LaunchScreenController.swift */; };
+		F3729D3126234C3800BD767A /* RegAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3729D3026234C3800BD767A /* RegAuthViewController.swift */; };
+		F3729D3C26234DF700BD767A /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3729D3B26234DF700BD767A /* LaunchScreenViewController.swift */; };
+		F3729D412623521200BD767A /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3729D402623521200BD767A /* AuthViewController.swift */; };
+		F3729D462623522700BD767A /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3729D452623522700BD767A /* RegistrationViewController.swift */; };
+		F3729D4B262357BF00BD767A /* PixelPC.png in Resources */ = {isa = PBXBuildFile; fileRef = F3729D4A262357BF00BD767A /* PixelPC.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +58,11 @@
 		F3729CD72622235900BD767A /* RidlessBAGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidlessBAGUITests.swift; sourceTree = "<group>"; };
 		F3729CD92622235900BD767A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3729CF826222C8200BD767A /* a_PoorStory.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = a_PoorStory.ttf; sourceTree = "<group>"; };
-		F3729D272622CBEF00BD767A /* LaunchScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenController.swift; sourceTree = "<group>"; };
+		F3729D3026234C3800BD767A /* RegAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegAuthViewController.swift; sourceTree = "<group>"; };
+		F3729D3B26234DF700BD767A /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		F3729D402623521200BD767A /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		F3729D452623522700BD767A /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		F3729D4A262357BF00BD767A /* PixelPC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PixelPC.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +149,9 @@
 		F3729CE82622239B00BD767A /* RegAuth */ = {
 			isa = PBXGroup;
 			children = (
+				F3729D3026234C3800BD767A /* RegAuthViewController.swift */,
+				F3729D402623521200BD767A /* AuthViewController.swift */,
+				F3729D452623522700BD767A /* RegistrationViewController.swift */,
 			);
 			path = RegAuth;
 			sourceTree = "<group>";
@@ -156,6 +167,7 @@
 		F3729CEA2622256600BD767A /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				F3729D4A262357BF00BD767A /* PixelPC.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -163,7 +175,7 @@
 		F3729D262622CBBE00BD767A /* LaunchScreen */ = {
 			isa = PBXGroup;
 			children = (
-				F3729D272622CBEF00BD767A /* LaunchScreenController.swift */,
+				F3729D3B26234DF700BD767A /* LaunchScreenViewController.swift */,
 			);
 			path = LaunchScreen;
 			sourceTree = "<group>";
@@ -271,6 +283,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3729D4B262357BF00BD767A /* PixelPC.png in Resources */,
 				F3729CC22622235900BD767A /* LaunchScreen.storyboard in Resources */,
 				F3729CBF2622235900BD767A /* Assets.xcassets in Resources */,
 				F3729CF926222C8200BD767A /* a_PoorStory.ttf in Resources */,
@@ -302,8 +315,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3729CBA2622235500BD767A /* ViewController.swift in Sources */,
+				F3729D3126234C3800BD767A /* RegAuthViewController.swift in Sources */,
 				F3729CB62622235500BD767A /* AppDelegate.swift in Sources */,
-				F3729D282622CBEF00BD767A /* LaunchScreenController.swift in Sources */,
+				F3729D3C26234DF700BD767A /* LaunchScreenViewController.swift in Sources */,
+				F3729D462623522700BD767A /* RegistrationViewController.swift in Sources */,
+				F3729D412623521200BD767A /* AuthViewController.swift in Sources */,
 				F3729CB82622235500BD767A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
